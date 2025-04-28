@@ -4,7 +4,7 @@ export const SITE: Site = {
   title: 'Open Price Action',
   description:
     'Price Action trading blog，trading wiki. day review,',
-  href: 'https://openpriceaction.github.io/blog',
+  href: 'https://openpriceaction.github.io/blog/',
   author: 'Open Price Action',
   locale: 'en-US',
   featuredPostCount: 5,
