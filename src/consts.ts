@@ -4,7 +4,7 @@ export const SITE: Site = {
   title: 'Open Price Action',
   description:
     'Price Action trading blog，trading wiki. day review,',
-  href: 'https://openpriceaction.github.io/blog/',
+  href: 'blog/',
   author: 'Open Price Action',
   locale: 'en-US',
   featuredPostCount: 5,
@@ -13,19 +13,19 @@ export const SITE: Site = {
 
 export const NAV_LINKS: SocialLink[] = [
   {
-    href: '/blog',
+    href: 'blog',
     label: 'blog',
   },
   {
-    href: '/tags',
+    href: 'tags',
     label: 'Tags',
   },
   {
-    href: '/authors',
+    href: 'authors',
     label: 'authors',
   },
   {
-    href: '/about',
+    href: 'about',
     label: 'about',
   },
 ]
@@ -36,7 +36,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'GitHub',
   },
   {
-    href: '/rss.xml',
+    href: 'rss.xml',
     label: 'RSS',
   },
 ]
