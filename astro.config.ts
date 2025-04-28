@@ -25,6 +25,7 @@ export default defineConfig({
     service: passthroughImageService(),
   },
   site: 'https://openpriceaction.github.io/blog',
+  base: '/blog',
   integrations: [
     expressiveCode({
       themes: ['github-light', 'github-dark'],
