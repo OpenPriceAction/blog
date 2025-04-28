@@ -1,0 +1,79 @@
+---
+title: 'How add to this website?'
+description: 'Add a new blog'
+date: 2025-04-28
+tags: ['Open Price Action']
+image: './index.avif'
+authors: ['opa']
+---
+
+Add a new blog to `Open price action`!
+
+## This website Github repo
+
+Repo: https://github.com/OpenPriceAction/blog
+
+### Github PR
+1. fork repo
+2. create blog
+3. PR to repo
+
+### headless CMS
+
+Maybe support....
+
+## Create NEW author
+
+`src\content\authors` create a new file with the name of the author, for example `authorname.md`
+
+### front-matter
+``` 
+---
+name: 'author name'
+pronouns: 'he/him'
+avatar: 'avatar images url'
+bio: 'bio text'
+website: 'https://github.com'
+twitter: 'https://twitter.com/'
+github: 'https://github.com/'
+mail: 'mail@mail.com'
+---
+
+```
+
+## Create NEW blog
+
+`src\content\blog` 
+
+Create a new folder in src\content\blog. The name is the title name
+
+like `src\content\blog\newpost\index.mdx`
+
+### front-matter
+
+```
+---
+title: 'blog title'
+description: 'blog description'
+date: 2025-04-31
+tags: ['tags','tags2']
+image: './cover.avif'
+authors: ['authorsFileName']
+---
+
+i am body text
+```
+### media
+
+All media is placed in a directory using `./` 
+
+### iframe
+
+iframe input html code
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/eY-mKJ6t8V4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eY-mKJ6t8V4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+
